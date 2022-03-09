@@ -1,0 +1,327 @@
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: white;
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Header starts */
+header{
+    padding: 20px 0px;
+}
+
+.header_logo{
+    width: 150px;
+    height: auto;
+    margin-left: 40px;
+}
+
+.header_nav{
+    margin-left: 450px;
+}
+
+.header_nav a{
+    text-decoration: none;
+    color: rgb(150, 150, 150);
+    margin: 0px 15px;
+}
+
+.header_nav a:hover{
+    color: dodgerblue;
+}
+
+/* Title section starts */
+.title{
+    margin-top: 50px;
+}
+
+.title img{
+    width: 40%;
+    margin-left: 350px;
+}
+
+.title h2{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.title p{
+    text-align: center;
+    font-size: 18px;
+    margin-top: -20px;
+    margin-bottom: 50px;
+}
+
+.title_nav{
+    margin-left: 550px;
+    padding: 10px 25px;
+    text-decoration: none;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+/* info section starts */
+.info{
+    margin-top: 100px;
+}
+
+.info1{
+    width: 45%;
+    margin-left: 50px;
+}
+
+.info1 img{
+    width: 80%;
+}
+
+.info2{
+    width: 45%;
+    margin-left: 25px;
+}
+
+.info2 h2{
+    font-size: 35px;
+    font-weight: 500;
+    margin-top: -8px;
+}
+
+.info2 p{
+    font-size: 18px;
+    margin-top: -10px;
+    color: rgb(100, 100, 100);
+}
+
+.info2 .list1{
+    padding: 5px 10px;
+}
+
+.info2 .list1 li{
+    margin: 5px 0px;
+    color: rgb(100, 100, 100);
+}
+
+.info2 .list2{
+    padding: 5px 10px;
+}
+
+.info2 .list2 li{
+    margin: 5px 0px;
+    color: rgb(100, 100, 100);
+}
+
+/* universe section starts */
+.universe{
+    margin-top: 125px;
+}
+
+.universe h2{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.universe p{
+    text-align: center;
+    font-size: 20px;
+}
+
+.universe img{
+    margin-bottom: 25px;
+}
+
+.universe_nav{
+    margin-left: 500px;
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+/* pricing section starts */
+.pricing{
+    margin-top: 100px;    
+}
+
+.pr1{
+    width: 45%;
+    margin-left: 75px;
+}
+
+.pr1 h2{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.pr1 p{
+    font-size: 18px;
+}
+
+.pr1 a{
+    text-decoration: none;
+    color: dodgerblue;
+    font-size: 15px;
+}
+
+.pr2{
+    width: 45%;
+    margin-left: 25px;
+}
+
+.pr2 .pr2_1{
+    border: 1px solid gray;
+    width: 40%;
+}
+
+.pr2 .pr2_1 h2{
+    margin-left: 85px;
+    font-size: 30px;
+}
+
+.pr2 .pr2_1 p{
+    margin: auto;
+    text-align: center;
+    margin-top: -10px;
+}
+
+/* edu section starts */
+.edu{
+    margin-top: 125px;
+}
+
+.edu1{
+    width: 45%;
+    margin-left: 75px;
+}
+
+.edu2{
+    width: 45%;
+    margin-left: 25px;
+}
+
+.edu2 h3{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.edu2 p{
+    font-size: 18px;
+    margin: 25px 0px;
+}
+
+.edu2 a{
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+/* account section starts */
+.account{
+    margin-top: 125px; 
+}
+
+.account h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.account p{
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.account a{
+    margin-left: 550px;
+    padding: 10px 25px;
+    text-decoration: none;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+/* footer starts */
+footer{
+    border-top: 1px solid rgb(221, 221, 221);
+    margin-top: 100px;
+}
+
+.col1{
+    width: 22%;
+    margin-left: 50px;
+}
+
+.col1 img{
+    margin-top: 50px;
+    width: 150px;
+    height: auto;
+}
+
+.col1 p{
+    font-size: 13px;
+    color: rgb(100, 100, 100);
+}
+
+.col2{
+    margin-top: 25px;
+    width: 20%;
+    margin-left: 25px;
+}
+
+.col2 h3{
+    font-size: 18px;
+}
+
+.col2 a{
+    display: block;
+    text-decoration: none;
+    margin: 10px 0px;
+    color: rgb(85, 85, 85);
+}
+
+.col2 a:hover{
+    color: dodgerblue;
+}
+
+.fp{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.fp p{
+    font-size: 13px;
+    color: rgb(160, 160, 160);
+}
+
+.fp p a{
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+.fp p a:hover{
+    color: black;
+}
+
+.footer_nav{
+    margin-left: 150px;   
+}
+
+.footer_nav a{
+    text-decoration: none;
+    color:rgb(160, 160, 160);
+    font-size: 13px;
+    margin: 15px 20px;
+}
+
+.footer_nav a:hover{
+    color: dodgerblue;
+}
